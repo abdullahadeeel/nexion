@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/core/Autoloader.php';
+
+use Phpify\Core\Autoloader;
+use Phpify\Core\Console\Application;
+use Phpify\Core\Console\Commands\ServeCommand;
+use Phpify\Core\Console\Commands\MigrateCommand;
+use Phpify\Core\Console\Commands\MakeControllerCommand;
+use Phpify\Core\Console\Commands\MakeModelCommand;
+use Phpify\Core\Console\Commands\MakeMigrationCommand;
+
+Autoloader::register();
+
+// Load environment variables
+\Phpify\Core\Config\Dotenv::load(__DIR__);
+
+$app = new Application();
+
+// Register Core Commands
+$app->add(new ServeCommand());
+$app->add(new MigrateCommand());
+$app->add(new MakeControllerCommand());
+$app->add(new MakeModelCommand());
+$app->add(new MakeMigrationCommand());
+
+$app->run();

@@ -1,0 +1,18 @@
+{
+    "name": "abdullah/phpify",
+    "description": "A full-fledged organized PHP framework.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phpify\\Core\\": "core/",
+            "App\\": "app/"
+        },
+        "files": [
+            "core/helpers.php"
+        ]
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
