@@ -1,14 +1,13 @@
 <?php
 
-require_once __DIR__ . '/../core/Autoloader.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-use Phpify\Core\Autoloader;
-use Phpify\Core\Application;
+use Phpify\Foundation\Application;
 
-Autoloader::register();
+\Phpify\Exception\ErrorHandler::register();
 
 // Load environment variables
-\Phpify\Core\Config\Dotenv::load(dirname(__DIR__));
+\Phpify\Config\Dotenv::load(dirname(__DIR__));
 
 $config = [
     'db' => [

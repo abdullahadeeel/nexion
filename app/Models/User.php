@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Phpify\Core\Database\Model;
+use Phpify\Database\Model;
 
 class User extends Model
 {

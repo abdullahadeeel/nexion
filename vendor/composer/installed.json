@@ -1,0 +1,278 @@
+{
+    "packages": [
+        {
+            "name": "phpify/config",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./phpify-packages/config",
+                "reference": "671837ac5b5137775254cab7df3592859beb6d4b"
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Phpify\\Config\\": "src/"
+                }
+            },
+            "description": "Phpify Config component",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../phpify/config"
+        },
+        {
+            "name": "phpify/console",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./phpify-packages/console",
+                "reference": "5c71c44ffa6f888eac16fae9ba578506b0ef3ebe"
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Phpify\\Console\\": "src/"
+                }
+            },
+            "description": "Phpify Console component",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../phpify/console"
+        },
+        {
+            "name": "phpify/controller",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./phpify-packages/controller",
+                "reference": "4c1196c33956a663bef7a7ae446c8faccd4afaf4"
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Phpify\\Controller\\": "src/"
+                }
+            },
+            "description": "Phpify Controller component",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../phpify/controller"
+        },
+        {
+            "name": "phpify/database",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./phpify-packages/database",
+                "reference": "9d6f5966619ad79d1e74c7eec41b4a0797b8a87b"
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Phpify\\Database\\": "src/"
+                }
+            },
+            "description": "Phpify Database component",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../phpify/database"
+        },
+        {
+            "name": "phpify/exception",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./phpify-packages/exception",
+                "reference": "b212876ad8274840a3dcc6273778b37d523a87bc"
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Phpify\\Exception\\": "src/"
+                }
+            },
+            "description": "Phpify Exception component",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../phpify/exception"
+        },
+        {
+            "name": "phpify/framework",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./phpify-packages/framework",
+                "reference": "4c12acd917d6c820fb833c2fcf390aab23ed4122"
+            },
+            "require": {
+                "php": ">=8.0",
+                "phpify/config": "*",
+                "phpify/console": "*",
+                "phpify/controller": "*",
+                "phpify/database": "*",
+                "phpify/exception": "*",
+                "phpify/http": "*",
+                "phpify/middleware": "*",
+                "phpify/routing": "*",
+                "phpify/view": "*"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Phpify\\Foundation\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "description": "The Phpify Framework",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../phpify/framework"
+        },
+        {
+            "name": "phpify/http",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./phpify-packages/http",
+                "reference": "1cdc8220daf9247d4af69a0158df767023cf6b29"
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Phpify\\Http\\": "src/"
+                }
+            },
+            "description": "Phpify Http component",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../phpify/http"
+        },
+        {
+            "name": "phpify/middleware",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./phpify-packages/middleware",
+                "reference": "edf93792070954e1bf3a0adf61e89dd5b3989527"
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Phpify\\Middleware\\": "src/"
+                }
+            },
+            "description": "Phpify Middleware component",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../phpify/middleware"
+        },
+        {
+            "name": "phpify/routing",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./phpify-packages/routing",
+                "reference": "75da4eaee5d11cb4a40fe737bcebb2125be3a38f"
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Phpify\\Routing\\": "src/"
+                }
+            },
+            "description": "Phpify Routing component",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../phpify/routing"
+        },
+        {
+            "name": "phpify/view",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./phpify-packages/view",
+                "reference": "b64ddd5aeb14b10c70d7232ff1787ffa9910e0b4"
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Phpify\\View\\": "src/"
+                }
+            },
+            "description": "Phpify View component",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../phpify/view"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

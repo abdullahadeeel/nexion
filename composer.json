@@ -1,18 +1,25 @@
 {
-    "name": "abdullah/phpify",
-    "description": "A full-fledged organized PHP framework.",
+    "name": "phpify/phpify",
+    "description": "The Phpify Application Skeleton",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Phpify\\Core\\": "core/",
             "App\\": "app/"
-        },
-        "files": [
-            "core/helpers.php"
-        ]
+        }
     },
     "require": {
-        "php": ">=8.0"
-    }
+        "php": ">=8.0",
+        "phpify/framework": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./phpify-packages/*",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "minimum-stability": "dev"
 }

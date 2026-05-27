@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    '5fd29debb1c317456ba6d8b1e22c0da4' => $baseDir . '/core/helpers.php',
+    '13397d3e479f827e32bbc40090799024' => $vendorDir . '/phpify/framework/src/helpers.php',
 );

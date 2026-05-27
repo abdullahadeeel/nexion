@@ -7,13 +7,22 @@ namespace Composer\Autoload;
 class ComposerStaticInit2115d2f1599ff3ccf902c180ce408680
 {
     public static $files = array (
-        '5fd29debb1c317456ba6d8b1e22c0da4' => __DIR__ . '/../..' . '/core/helpers.php',
+        '13397d3e479f827e32bbc40090799024' => __DIR__ . '/..' . '/phpify/framework/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'P' =>
         array (
-            'Phpify\\Core\\' => 12,
+            'Phpify\\View\\' => 12,
+            'Phpify\\Routing\\' => 15,
+            'Phpify\\Middleware\\' => 18,
+            'Phpify\\Http\\' => 12,
+            'Phpify\\Foundation\\' => 18,
+            'Phpify\\Exception\\' => 17,
+            'Phpify\\Database\\' => 16,
+            'Phpify\\Controller\\' => 18,
+            'Phpify\\Console\\' => 15,
+            'Phpify\\Config\\' => 14,
         ),
         'A' =>
         array (
@@ -22,9 +31,45 @@ class ComposerStaticInit2115d2f1599ff3ccf902c180ce408680
     );
 
     public static $prefixDirsPsr4 = array (
-        'Phpify\\Core\\' =>
+        'Phpify\\View\\' =>
         array (
-            0 => __DIR__ . '/../..' . '/core',
+            0 => __DIR__ . '/..' . '/phpify/view/src',
+        ),
+        'Phpify\\Routing\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpify/routing/src',
+        ),
+        'Phpify\\Middleware\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpify/middleware/src',
+        ),
+        'Phpify\\Http\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpify/http/src',
+        ),
+        'Phpify\\Foundation\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpify/framework/src',
+        ),
+        'Phpify\\Exception\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpify/exception/src',
+        ),
+        'Phpify\\Database\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpify/database/src',
+        ),
+        'Phpify\\Controller\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpify/controller/src',
+        ),
+        'Phpify\\Console\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpify/console/src',
+        ),
+        'Phpify\\Config\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpify/config/src',
         ),
         'App\\' =>
         array (

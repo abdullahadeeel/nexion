@@ -1,6 +1,6 @@
 <?php
 
-use Phpify\Core\Application;
+use Phpify\Foundation\Application;
 use App\Controllers\HomeController;
 
 $router = Application::$app->router;

@@ -6,6 +6,15 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Phpify\\Core\\' => array($baseDir . '/core'),
+    'Phpify\\View\\' => array($vendorDir . '/phpify/view/src'),
+    'Phpify\\Routing\\' => array($vendorDir . '/phpify/routing/src'),
+    'Phpify\\Middleware\\' => array($vendorDir . '/phpify/middleware/src'),
+    'Phpify\\Http\\' => array($vendorDir . '/phpify/http/src'),
+    'Phpify\\Foundation\\' => array($vendorDir . '/phpify/framework/src'),
+    'Phpify\\Exception\\' => array($vendorDir . '/phpify/exception/src'),
+    'Phpify\\Database\\' => array($vendorDir . '/phpify/database/src'),
+    'Phpify\\Controller\\' => array($vendorDir . '/phpify/controller/src'),
+    'Phpify\\Console\\' => array($vendorDir . '/phpify/console/src'),
+    'Phpify\\Config\\' => array($vendorDir . '/phpify/config/src'),
     'App\\' => array($baseDir . '/app'),
 );

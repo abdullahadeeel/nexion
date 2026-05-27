@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use Phpify\Core\Controller\BaseController;
-use Phpify\Core\Http\Request;
+use Phpify\Controller\BaseController;
+use Phpify\Http\Request;
 
 class HomeController extends BaseController
 {
