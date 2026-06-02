@@ -3,15 +3,15 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-\Phpify\Exception\ErrorHandler::register();
+\Nexion\Exception\ErrorHandler::register();
 
 // Load environment variables
-\Phpify\Config\Dotenv::load(__DIR__);
+\Nexion\Config\Dotenv::load(__DIR__);
 
-/** @var \Phpify\Foundation\Application $app */
+/** @var \Nexion\Foundation\Application $app */
 $app = require_once __DIR__ . '/bootstrap/app.php';
 
-$kernel = $app->make(\Phpify\Console\Kernel::class);
+$kernel = $app->make(\Nexion\Console\Kernel::class);
 
 $status = $kernel->handle(null);
 

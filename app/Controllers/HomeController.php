@@ -10,7 +10,7 @@ class HomeController extends BaseController
     public function index(Request $request)
     {
         return $this->render('home', [
-            'title' => 'Welcome to phpify',
+            'title' => 'Welcome to nexion',
             'features' => ['Routing', 'Middleware', 'ORM', 'Template Engine']
         ]);
     }

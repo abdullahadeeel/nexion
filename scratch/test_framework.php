@@ -27,7 +27,7 @@ function assertTest(string $name, bool $expression) {
     }
 }
 
-echo "=== phpify Framework Verification Suite ===\n\n";
+echo "=== nexion Framework Verification Suite ===\n\n";
 
 // 1. Dotenv Loader Verification
 $envFile = __DIR__ . '/.env';

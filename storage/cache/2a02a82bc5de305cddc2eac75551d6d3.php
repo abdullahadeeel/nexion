@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo htmlspecialchars($title ?? 'phpify Framework'); ?></title>
+    <title><?php echo htmlspecialchars($title ?? 'nexion Framework'); ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
@@ -161,7 +161,7 @@
 
     <div class="container">
         <header>
-            <div class="logo">phpify</div>
+            <div class="logo">nexion</div>
             <span class="badge">v2.0 Full-Fledged</span>
         </header>
 
@@ -171,7 +171,7 @@
     </div>
 
     <footer>
-        <p>Powered by ⚡ <strong>phpify Framework</strong>. Crafted with Antigravity AI.</p>
+        <p>Powered by ⚡ <strong>nexion Framework</strong>. Crafted with Antigravity AI.</p>
     </footer>
 </body>
 </html>

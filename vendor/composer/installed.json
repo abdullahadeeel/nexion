@@ -1,17 +1,24 @@
 {
     "packages": [
         {
-            "name": "phpify/config",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "name": "nexion/config",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abdullahadeeel/config.git",
+                "reference": "2adab796cb5594877628841932e4a600292084eb"
+            },
             "dist": {
-                "type": "path",
-                "url": "./phpify-framework/config",
-                "reference": "671837ac5b5137775254cab7df3592859beb6d4b"
+                "type": "zip",
+                "url": "https://api.github.com/repos/abdullahadeeel/config/zipball/2adab796cb5594877628841932e4a600292084eb",
+                "reference": "2adab796cb5594877628841932e4a600292084eb",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.0"
             },
+            "time": "2026-06-02T17:31:33+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -19,25 +26,33 @@
                     "Phpify\\Config\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Phpify Config component",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
+            "support": {
+                "issues": "https://github.com/abdullahadeeel/config/issues",
+                "source": "https://github.com/abdullahadeeel/config/tree/v1.0.0"
             },
-            "install-path": "../phpify/config"
+            "install-path": "../nexion/config"
         },
         {
-            "name": "phpify/console",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "name": "nexion/console",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abdullahadeeel/console.git",
+                "reference": "1731c7fc4a25d24eb28729ac5b90207d28c34431"
+            },
             "dist": {
-                "type": "path",
-                "url": "./phpify-framework/console",
-                "reference": "5c71c44ffa6f888eac16fae9ba578506b0ef3ebe"
+                "type": "zip",
+                "url": "https://api.github.com/repos/abdullahadeeel/console/zipball/1731c7fc4a25d24eb28729ac5b90207d28c34431",
+                "reference": "1731c7fc4a25d24eb28729ac5b90207d28c34431",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.0"
             },
+            "time": "2026-06-02T17:31:33+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -45,25 +60,33 @@
                     "Phpify\\Console\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Phpify Console component",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
+            "support": {
+                "issues": "https://github.com/abdullahadeeel/console/issues",
+                "source": "https://github.com/abdullahadeeel/console/tree/v1.0.0"
             },
-            "install-path": "../phpify/console"
+            "install-path": "../nexion/console"
         },
         {
-            "name": "phpify/controller",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "name": "nexion/controller",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abdullahadeeel/controller.git",
+                "reference": "801364b6b9b4b5890ebae6ecd758d4b79a9f4da4"
+            },
             "dist": {
-                "type": "path",
-                "url": "./phpify-framework/controller",
-                "reference": "4c1196c33956a663bef7a7ae446c8faccd4afaf4"
+                "type": "zip",
+                "url": "https://api.github.com/repos/abdullahadeeel/controller/zipball/801364b6b9b4b5890ebae6ecd758d4b79a9f4da4",
+                "reference": "801364b6b9b4b5890ebae6ecd758d4b79a9f4da4",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.0"
             },
+            "time": "2026-06-02T17:31:33+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -71,25 +94,33 @@
                     "Phpify\\Controller\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Phpify Controller component",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
+            "support": {
+                "issues": "https://github.com/abdullahadeeel/controller/issues",
+                "source": "https://github.com/abdullahadeeel/controller/tree/v1.0.0"
             },
-            "install-path": "../phpify/controller"
+            "install-path": "../nexion/controller"
         },
         {
-            "name": "phpify/database",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "name": "nexion/database",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abdullahadeeel/database.git",
+                "reference": "c69aecd4e5792ee968fa717db2d2c98a3494ef28"
+            },
             "dist": {
-                "type": "path",
-                "url": "./phpify-framework/database",
-                "reference": "9d6f5966619ad79d1e74c7eec41b4a0797b8a87b"
+                "type": "zip",
+                "url": "https://api.github.com/repos/abdullahadeeel/database/zipball/c69aecd4e5792ee968fa717db2d2c98a3494ef28",
+                "reference": "c69aecd4e5792ee968fa717db2d2c98a3494ef28",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.0"
             },
+            "time": "2026-06-02T17:31:33+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -97,25 +128,33 @@
                     "Phpify\\Database\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Phpify Database component",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
+            "support": {
+                "issues": "https://github.com/abdullahadeeel/database/issues",
+                "source": "https://github.com/abdullahadeeel/database/tree/v1.0.0"
             },
-            "install-path": "../phpify/database"
+            "install-path": "../nexion/database"
         },
         {
-            "name": "phpify/exception",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "name": "nexion/exception",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abdullahadeeel/exception.git",
+                "reference": "a6fab14a888c0762c37c0b93783541e39295d2e0"
+            },
             "dist": {
-                "type": "path",
-                "url": "./phpify-framework/exception",
-                "reference": "b212876ad8274840a3dcc6273778b37d523a87bc"
+                "type": "zip",
+                "url": "https://api.github.com/repos/abdullahadeeel/exception/zipball/a6fab14a888c0762c37c0b93783541e39295d2e0",
+                "reference": "a6fab14a888c0762c37c0b93783541e39295d2e0",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.0"
             },
+            "time": "2026-06-02T17:31:34+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -123,63 +162,79 @@
                     "Phpify\\Exception\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Phpify Exception component",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
+            "support": {
+                "issues": "https://github.com/abdullahadeeel/exception/issues",
+                "source": "https://github.com/abdullahadeeel/exception/tree/v1.0.0"
             },
-            "install-path": "../phpify/exception"
+            "install-path": "../nexion/exception"
         },
         {
-            "name": "phpify/framework",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "name": "nexion/framework",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abdullahadeeel/framework.git",
+                "reference": "9b7a78d6e642517e43774e2630761867113f67b3"
+            },
             "dist": {
-                "type": "path",
-                "url": "./phpify-framework/framework",
-                "reference": "1194b29fc865ea29f8703d94fe7aed6562403ea6"
+                "type": "zip",
+                "url": "https://api.github.com/repos/abdullahadeeel/framework/zipball/9b7a78d6e642517e43774e2630761867113f67b3",
+                "reference": "9b7a78d6e642517e43774e2630761867113f67b3",
+                "shasum": ""
             },
             "require": {
-                "php": ">=8.0",
-                "phpify/config": "*",
-                "phpify/console": "*",
-                "phpify/controller": "*",
-                "phpify/database": "*",
-                "phpify/exception": "*",
-                "phpify/http": "*",
-                "phpify/middleware": "*",
-                "phpify/routing": "*",
-                "phpify/view": "*"
+                "nexion/config": "*",
+                "nexion/console": "*",
+                "nexion/controller": "*",
+                "nexion/database": "*",
+                "nexion/exception": "*",
+                "nexion/http": "*",
+                "nexion/middleware": "*",
+                "nexion/routing": "*",
+                "nexion/view": "*",
+                "php": ">=8.0"
             },
+            "time": "2026-06-02T17:31:33+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
-                "psr-4": {
-                    "Phpify\\": "src/"
-                },
                 "files": [
                     "src/Foundation/helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Phpify\\": "src/"
+                }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "The Phpify Framework",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
+            "support": {
+                "issues": "https://github.com/abdullahadeeel/framework/issues",
+                "source": "https://github.com/abdullahadeeel/framework/tree/v1.0.0"
             },
-            "install-path": "../phpify/framework"
+            "install-path": "../nexion/framework"
         },
         {
-            "name": "phpify/http",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "name": "nexion/http",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abdullahadeeel/http.git",
+                "reference": "78709ab05da2c09a6c6495fa79124528f013499f"
+            },
             "dist": {
-                "type": "path",
-                "url": "./phpify-framework/http",
-                "reference": "1cdc8220daf9247d4af69a0158df767023cf6b29"
+                "type": "zip",
+                "url": "https://api.github.com/repos/abdullahadeeel/http/zipball/78709ab05da2c09a6c6495fa79124528f013499f",
+                "reference": "78709ab05da2c09a6c6495fa79124528f013499f",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.0"
             },
+            "time": "2026-06-02T17:31:31+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -187,25 +242,33 @@
                     "Phpify\\Http\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Phpify Http component",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
+            "support": {
+                "issues": "https://github.com/abdullahadeeel/http/issues",
+                "source": "https://github.com/abdullahadeeel/http/tree/v1.0.0"
             },
-            "install-path": "../phpify/http"
+            "install-path": "../nexion/http"
         },
         {
-            "name": "phpify/middleware",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "name": "nexion/middleware",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abdullahadeeel/middleware.git",
+                "reference": "02284cbd3c73032efdf83da4ea4ca12339ff8ecc"
+            },
             "dist": {
-                "type": "path",
-                "url": "./phpify-framework/middleware",
-                "reference": "edf93792070954e1bf3a0adf61e89dd5b3989527"
+                "type": "zip",
+                "url": "https://api.github.com/repos/abdullahadeeel/middleware/zipball/02284cbd3c73032efdf83da4ea4ca12339ff8ecc",
+                "reference": "02284cbd3c73032efdf83da4ea4ca12339ff8ecc",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.0"
             },
+            "time": "2026-06-02T17:31:34+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -213,25 +276,33 @@
                     "Phpify\\Middleware\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Phpify Middleware component",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
+            "support": {
+                "issues": "https://github.com/abdullahadeeel/middleware/issues",
+                "source": "https://github.com/abdullahadeeel/middleware/tree/v1.0.0"
             },
-            "install-path": "../phpify/middleware"
+            "install-path": "../nexion/middleware"
         },
         {
-            "name": "phpify/routing",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "name": "nexion/routing",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abdullahadeeel/routing.git",
+                "reference": "aa3747d3d312df43f34c8c28d1a800051e3de60a"
+            },
             "dist": {
-                "type": "path",
-                "url": "./phpify-framework/routing",
-                "reference": "75da4eaee5d11cb4a40fe737bcebb2125be3a38f"
+                "type": "zip",
+                "url": "https://api.github.com/repos/abdullahadeeel/routing/zipball/aa3747d3d312df43f34c8c28d1a800051e3de60a",
+                "reference": "aa3747d3d312df43f34c8c28d1a800051e3de60a",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.0"
             },
+            "time": "2026-06-02T17:31:36+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -239,25 +310,33 @@
                     "Phpify\\Routing\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Phpify Routing component",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
+            "support": {
+                "issues": "https://github.com/abdullahadeeel/routing/issues",
+                "source": "https://github.com/abdullahadeeel/routing/tree/v1.0.0"
             },
-            "install-path": "../phpify/routing"
+            "install-path": "../nexion/routing"
         },
         {
-            "name": "phpify/view",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "name": "nexion/view",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abdullahadeeel/view.git",
+                "reference": "523dc5def961e9f3739492993e2fa969f45afaba"
+            },
             "dist": {
-                "type": "path",
-                "url": "./phpify-framework/view",
-                "reference": "b64ddd5aeb14b10c70d7232ff1787ffa9910e0b4"
+                "type": "zip",
+                "url": "https://api.github.com/repos/abdullahadeeel/view/zipball/523dc5def961e9f3739492993e2fa969f45afaba",
+                "reference": "523dc5def961e9f3739492993e2fa969f45afaba",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.0"
             },
+            "time": "2026-06-02T17:31:37+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -265,12 +344,13 @@
                     "Phpify\\View\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Phpify View component",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
+            "support": {
+                "issues": "https://github.com/abdullahadeeel/view/issues",
+                "source": "https://github.com/abdullahadeeel/view/tree/v1.0.0"
             },
-            "install-path": "../phpify/view"
+            "install-path": "../nexion/view"
         }
     ],
     "dev": true,

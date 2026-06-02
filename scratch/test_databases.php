@@ -30,7 +30,7 @@ function assertTest(string $name, bool $expression)
     }
 }
 
-echo "=== phpify Dynamic Database Adapter Suite ===\n\n";
+echo "=== nexion Dynamic Database Adapter Suite ===\n\n";
 
 // --- TEST 1: SQLite Connection & Basic Operations ---
 echo "--- Testing SQLite Driver ---\n";

@@ -1,4 +1,4 @@
-# phpify Framework
+# nexion Framework
 
 A full-fledged organized PHP framework inspired by Laravel.
 

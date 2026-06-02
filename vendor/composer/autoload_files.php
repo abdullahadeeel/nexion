@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'a807231c879b46095836c5af315ea057' => $vendorDir . '/phpify/framework/src/Foundation/helpers.php',
+    'f08c40158ce6b77fedee2a18b28a8ee7' => $vendorDir . '/nexion/framework/src/Foundation/helpers.php',
 );

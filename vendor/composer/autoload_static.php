@@ -7,11 +7,24 @@ namespace Composer\Autoload;
 class ComposerStaticInit2115d2f1599ff3ccf902c180ce408680
 {
     public static $files = array (
-        'a807231c879b46095836c5af315ea057' => __DIR__ . '/..' . '/phpify/framework/src/Foundation/helpers.php',
+        'f08c40158ce6b77fedee2a18b28a8ee7' => __DIR__ . '/..' . '/nexion/framework/src/Foundation/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'P' =>
+        array (
+            'Phpify\\View\\' => 12,
+            'Phpify\\Routing\\' => 15,
+            'Phpify\\Middleware\\' => 18,
+            'Phpify\\Http\\' => 12,
+            'Phpify\\Exception\\' => 17,
+            'Phpify\\Database\\' => 16,
+            'Phpify\\Controller\\' => 18,
+            'Phpify\\Console\\' => 15,
+            'Phpify\\Config\\' => 14,
+            'Phpify\\' => 7,
+        ),
+        'N' =>
         array (
             'Nexion\\View\\' => 12,
             'Nexion\\Routing\\' => 15,
@@ -31,45 +44,85 @@ class ComposerStaticInit2115d2f1599ff3ccf902c180ce408680
     );
 
     public static $prefixDirsPsr4 = array (
+        'Phpify\\View\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/nexion/view/src',
+        ),
+        'Phpify\\Routing\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/nexion/routing/src',
+        ),
+        'Phpify\\Middleware\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/nexion/middleware/src',
+        ),
+        'Phpify\\Http\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/nexion/http/src',
+        ),
+        'Phpify\\Exception\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/nexion/exception/src',
+        ),
+        'Phpify\\Database\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/nexion/database/src',
+        ),
+        'Phpify\\Controller\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/nexion/controller/src',
+        ),
+        'Phpify\\Console\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/nexion/console/src',
+        ),
+        'Phpify\\Config\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/nexion/config/src',
+        ),
+        'Phpify\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/nexion/framework/src',
+        ),
         'Nexion\\View\\' =>
         array (
-            0 => __DIR__ . '/..' . '/phpify/view/src',
+            0 => __DIR__ . '/..' . '/nexion/view/src',
         ),
         'Nexion\\Routing\\' =>
         array (
-            0 => __DIR__ . '/..' . '/phpify/routing/src',
+            0 => __DIR__ . '/..' . '/nexion/routing/src',
         ),
         'Nexion\\Middleware\\' =>
         array (
-            0 => __DIR__ . '/..' . '/phpify/middleware/src',
+            0 => __DIR__ . '/..' . '/nexion/middleware/src',
         ),
         'Nexion\\Http\\' =>
         array (
-            0 => __DIR__ . '/..' . '/phpify/http/src',
+            0 => __DIR__ . '/..' . '/nexion/http/src',
         ),
         'Nexion\\Exception\\' =>
         array (
-            0 => __DIR__ . '/..' . '/phpify/exception/src',
+            0 => __DIR__ . '/..' . '/nexion/exception/src',
         ),
         'Nexion\\Database\\' =>
         array (
-            0 => __DIR__ . '/..' . '/phpify/database/src',
+            0 => __DIR__ . '/..' . '/nexion/database/src',
         ),
         'Nexion\\Controller\\' =>
         array (
-            0 => __DIR__ . '/..' . '/phpify/controller/src',
+            0 => __DIR__ . '/..' . '/nexion/controller/src',
         ),
         'Nexion\\Console\\' =>
         array (
-            0 => __DIR__ . '/..' . '/phpify/console/src',
+            0 => __DIR__ . '/..' . '/nexion/console/src',
         ),
         'Nexion\\Config\\' =>
         array (
-            0 => __DIR__ . '/..' . '/phpify/config/src',
+            0 => __DIR__ . '/..' . '/nexion/config/src',
         ),
         'Nexion\\' =>
         array (
-            0 => __DIR__ . '/..' . '/phpify/framework/src',
+            0 => __DIR__ . '/..' . '/nexion/framework/src',
         ),
         'App\\' =>
         array (

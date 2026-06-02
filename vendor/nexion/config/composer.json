@@ -1,0 +1,13 @@
+{ 
+    "name": "nexion/config",
+    "description": "Nexion Config component",
+    "type": "library",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nexion\\Config\\": "src/"
+        }
+    }
+}

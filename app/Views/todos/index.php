@@ -6,7 +6,7 @@
     <div class="glass-card status-summary-card">
         <div class="summary-info">
             <h1 class="page-title">Workspace Tasks</h1>
-            <p class="subtitle">Streamline your productivity with phpify</p>
+            <p class="subtitle">Streamline your productivity with nexion</p>
         </div>
         <div class="stats-container">
             <div class="stat-box">

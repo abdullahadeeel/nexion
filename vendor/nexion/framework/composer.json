@@ -1,0 +1,25 @@
+{
+    "name": "nexion/framework",
+    "description": "The Nexion Framework",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "nexion/config": "*",
+        "nexion/console": "*",
+        "nexion/controller": "*",
+        "nexion/database": "*",
+        "nexion/exception": "*",
+        "nexion/http": "*",
+        "nexion/middleware": "*",
+        "nexion/routing": "*",
+        "nexion/view": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nexion\\": "src/"
+        },
+        "files": [
+            "src/Foundation/helpers.php"
+        ]
+    }
+}

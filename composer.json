@@ -5,7 +5,17 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "App\\": "app/"
+      "App\\": "app/",
+      "Nexion\\": "vendor/nexion/framework/src/",
+      "Nexion\\Config\\": "vendor/nexion/config/src/",
+      "Nexion\\Console\\": "vendor/nexion/console/src/",
+      "Nexion\\Controller\\": "vendor/nexion/controller/src/",
+      "Nexion\\Database\\": "vendor/nexion/database/src/",
+      "Nexion\\Exception\\": "vendor/nexion/exception/src/",
+      "Nexion\\Http\\": "vendor/nexion/http/src/",
+      "Nexion\\Middleware\\": "vendor/nexion/middleware/src/",
+      "Nexion\\Routing\\": "vendor/nexion/routing/src/",
+      "Nexion\\View\\": "vendor/nexion/view/src/"
     }
   },
   "require": {
