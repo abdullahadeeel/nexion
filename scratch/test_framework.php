@@ -2,14 +2,14 @@
 
 require_once __DIR__ . '/../core/Autoloader.php';
 
-use Phpify\Core\Autoloader;
-use Phpify\Core\Config\Dotenv;
-use Phpify\Core\Http\Request;
-use Phpify\Core\Http\Response;
-use Phpify\Core\Http\ValidationException;
-use Phpify\Core\Routing\Router;
-use Phpify\Core\Database\QueryBuilder;
-use Phpify\Core\View\Engine;
+use Nexion\Core\Autoloader;
+use Nexion\Core\Config\Dotenv;
+use Nexion\Core\Http\Request;
+use Nexion\Core\Http\Response;
+use Nexion\Core\Http\ValidationException;
+use Nexion\Core\Routing\Router;
+use Nexion\Core\Database\QueryBuilder;
+use Nexion\Core\View\Engine;
 
 Autoloader::register();
 
@@ -78,7 +78,7 @@ if ($resolved) {
 }
 
 // 5. ORM Query Builder (Pre-execution SQL compiler check)
-class MockModel extends \Phpify\Core\Database\Model {
+class MockModel extends \Nexion\Core\Database\Model {
     protected string $table = 'mock_table';
 }
 

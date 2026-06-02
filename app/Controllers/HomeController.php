@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use Phpify\Controller\BaseController;
-use Phpify\Http\Request;
+use Nexion\Controller\BaseController;
+use Nexion\Http\Request;
 
 class HomeController extends BaseController
 {

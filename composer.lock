@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ae819612524c926db366afdb8c7207d",
+    "content-hash": "0db24dcd4c5cd9cf462ffba0edef92ae",
     "packages": [
         {
             "name": "phpify/config",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./phpify-packages/config",
+                "url": "./phpify-framework/config",
                 "reference": "671837ac5b5137775254cab7df3592859beb6d4b"
             },
             "require": {
@@ -31,10 +31,10 @@
         },
         {
             "name": "phpify/console",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./phpify-packages/console",
+                "url": "./phpify-framework/console",
                 "reference": "5c71c44ffa6f888eac16fae9ba578506b0ef3ebe"
             },
             "require": {
@@ -54,10 +54,10 @@
         },
         {
             "name": "phpify/controller",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./phpify-packages/controller",
+                "url": "./phpify-framework/controller",
                 "reference": "4c1196c33956a663bef7a7ae446c8faccd4afaf4"
             },
             "require": {
@@ -77,10 +77,10 @@
         },
         {
             "name": "phpify/database",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./phpify-packages/database",
+                "url": "./phpify-framework/database",
                 "reference": "9d6f5966619ad79d1e74c7eec41b4a0797b8a87b"
             },
             "require": {
@@ -100,10 +100,10 @@
         },
         {
             "name": "phpify/exception",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./phpify-packages/exception",
+                "url": "./phpify-framework/exception",
                 "reference": "b212876ad8274840a3dcc6273778b37d523a87bc"
             },
             "require": {
@@ -123,11 +123,11 @@
         },
         {
             "name": "phpify/framework",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./phpify-packages/framework",
-                "reference": "4c12acd917d6c820fb833c2fcf390aab23ed4122"
+                "url": "./phpify-framework/framework",
+                "reference": "1194b29fc865ea29f8703d94fe7aed6562403ea6"
             },
             "require": {
                 "php": ">=8.0",
@@ -144,10 +144,10 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Phpify\\Foundation\\": "src/"
+                    "Phpify\\": "src/"
                 },
                 "files": [
-                    "src/helpers.php"
+                    "src/Foundation/helpers.php"
                 ]
             },
             "description": "The Phpify Framework",
@@ -158,10 +158,10 @@
         },
         {
             "name": "phpify/http",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./phpify-packages/http",
+                "url": "./phpify-framework/http",
                 "reference": "1cdc8220daf9247d4af69a0158df767023cf6b29"
             },
             "require": {
@@ -181,10 +181,10 @@
         },
         {
             "name": "phpify/middleware",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./phpify-packages/middleware",
+                "url": "./phpify-framework/middleware",
                 "reference": "edf93792070954e1bf3a0adf61e89dd5b3989527"
             },
             "require": {
@@ -204,10 +204,10 @@
         },
         {
             "name": "phpify/routing",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./phpify-packages/routing",
+                "url": "./phpify-framework/routing",
                 "reference": "75da4eaee5d11cb4a40fe737bcebb2125be3a38f"
             },
             "require": {
@@ -227,10 +227,10 @@
         },
         {
             "name": "phpify/view",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./phpify-packages/view",
+                "url": "./phpify-framework/view",
                 "reference": "b64ddd5aeb14b10c70d7232ff1787ffa9910e0b4"
             },
             "require": {

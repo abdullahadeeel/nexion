@@ -1,26 +1,29 @@
 <?php
 
+/**
+ * phpify - A simple PHP Framework
+ */
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Phpify\Foundation\Application;
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
-\Phpify\Exception\ErrorHandler::register();
+// Register Error Handler
+\Nexion\Exception\ErrorHandler::register();
 
 // Load environment variables
-\Phpify\Config\Dotenv::load(dirname(__DIR__));
+\Nexion\Config\Dotenv::load(dirname(__DIR__));
 
-$config = [
-    'db' => [
-        'host' => env('DB_HOST', '127.0.0.1'),
-        'dbname' => env('DB_DATABASE', 'phpify'),
-        'user' => env('DB_USERNAME', 'root'),
-        'password' => env('DB_PASSWORD', '')
-      ]
-];
-
-$app = new Application(dirname(__DIR__), $config);
+/** @var \Nexion\Foundation\Application $app */
+$app = require_once __DIR__ . '/../bootstrap/app.php';
 
 // Load routes
 require_once __DIR__ . '/../routes/web.php';
 
-$app->run();
+// Handle the request
+$request = new \Nexion\Http\Request();
+$response = $app->handle($request);
+
+$response->send();

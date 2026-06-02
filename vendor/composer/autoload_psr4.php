@@ -6,15 +6,15 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Phpify\\View\\' => array($vendorDir . '/phpify/view/src'),
-    'Phpify\\Routing\\' => array($vendorDir . '/phpify/routing/src'),
-    'Phpify\\Middleware\\' => array($vendorDir . '/phpify/middleware/src'),
-    'Phpify\\Http\\' => array($vendorDir . '/phpify/http/src'),
-    'Phpify\\Foundation\\' => array($vendorDir . '/phpify/framework/src'),
-    'Phpify\\Exception\\' => array($vendorDir . '/phpify/exception/src'),
-    'Phpify\\Database\\' => array($vendorDir . '/phpify/database/src'),
-    'Phpify\\Controller\\' => array($vendorDir . '/phpify/controller/src'),
-    'Phpify\\Console\\' => array($vendorDir . '/phpify/console/src'),
-    'Phpify\\Config\\' => array($vendorDir . '/phpify/config/src'),
+    'Nexion\\View\\' => array($vendorDir . '/phpify/view/src'),
+    'Nexion\\Routing\\' => array($vendorDir . '/phpify/routing/src'),
+    'Nexion\\Middleware\\' => array($vendorDir . '/phpify/middleware/src'),
+    'Nexion\\Http\\' => array($vendorDir . '/phpify/http/src'),
+    'Nexion\\Exception\\' => array($vendorDir . '/phpify/exception/src'),
+    'Nexion\\Database\\' => array($vendorDir . '/phpify/database/src'),
+    'Nexion\\Controller\\' => array($vendorDir . '/phpify/controller/src'),
+    'Nexion\\Console\\' => array($vendorDir . '/phpify/console/src'),
+    'Nexion\\Config\\' => array($vendorDir . '/phpify/config/src'),
+    'Nexion\\' => array($vendorDir . '/phpify/framework/src'),
     'App\\' => array($baseDir . '/app'),
 );

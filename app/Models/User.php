@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Phpify\Database\Model;
+use Nexion\Database\Model;
 
 class User extends Model
 {

@@ -1,5 +1,5 @@
 {
-    "name": "phpify/phpify",
+    "name": "nexion/phpify",
     "description": "The Phpify Application Skeleton",
     "type": "project",
     "license": "MIT",
@@ -10,12 +10,12 @@
     },
     "require": {
         "php": ">=8.0",
-        "phpify/framework": "*"
+        "nexion/framework": "*"
     },
     "repositories": [
         {
             "type": "path",
-            "url": "./phpify-packages/*",
+            "url": "./phpify-framework/*",
             "options": {
                 "symlink": true
             }

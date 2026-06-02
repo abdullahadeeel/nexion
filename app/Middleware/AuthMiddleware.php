@@ -2,9 +2,9 @@
 
 namespace App\Middleware;
 
-use Phpify\Middleware\Middleware;
-use Phpify\Http\Request;
-use Phpify\Http\Response;
+use Nexion\Middleware\Middleware;
+use Nexion\Http\Request;
+use Nexion\Http\Response;
 
 class AuthMiddleware implements Middleware
 {

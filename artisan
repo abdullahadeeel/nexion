@@ -3,26 +3,16 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use Phpify\Foundation\Application as BaseApplication;
-use Phpify\Console\Application;
-use Phpify\Console\Commands\ServeCommand;
-use Phpify\Console\Commands\MigrateCommand;
-use Phpify\Console\Commands\MakeControllerCommand;
-use Phpify\Console\Commands\MakeModelCommand;
-use Phpify\Console\Commands\MakeMigrationCommand;
-
 \Phpify\Exception\ErrorHandler::register();
 
 // Load environment variables
 \Phpify\Config\Dotenv::load(__DIR__);
 
-$app = new Application();
+/** @var \Phpify\Foundation\Application $app */
+$app = require_once __DIR__ . '/bootstrap/app.php';
 
-// Register Core Commands
-$app->add(new ServeCommand());
-$app->add(new MigrateCommand());
-$app->add(new MakeControllerCommand());
-$app->add(new MakeModelCommand());
-$app->add(new MakeMigrationCommand());
+$kernel = $app->make(\Phpify\Console\Kernel::class);
 
-$app->run();
+$status = $kernel->handle(null);
+
+exit($status);

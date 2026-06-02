@@ -7,22 +7,22 @@ namespace Composer\Autoload;
 class ComposerStaticInit2115d2f1599ff3ccf902c180ce408680
 {
     public static $files = array (
-        '13397d3e479f827e32bbc40090799024' => __DIR__ . '/..' . '/phpify/framework/src/helpers.php',
+        'a807231c879b46095836c5af315ea057' => __DIR__ . '/..' . '/phpify/framework/src/Foundation/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'P' =>
         array (
-            'Phpify\\View\\' => 12,
-            'Phpify\\Routing\\' => 15,
-            'Phpify\\Middleware\\' => 18,
-            'Phpify\\Http\\' => 12,
-            'Phpify\\Foundation\\' => 18,
-            'Phpify\\Exception\\' => 17,
-            'Phpify\\Database\\' => 16,
-            'Phpify\\Controller\\' => 18,
-            'Phpify\\Console\\' => 15,
-            'Phpify\\Config\\' => 14,
+            'Nexion\\View\\' => 12,
+            'Nexion\\Routing\\' => 15,
+            'Nexion\\Middleware\\' => 18,
+            'Nexion\\Http\\' => 12,
+            'Nexion\\Exception\\' => 17,
+            'Nexion\\Database\\' => 16,
+            'Nexion\\Controller\\' => 18,
+            'Nexion\\Console\\' => 15,
+            'Nexion\\Config\\' => 14,
+            'Nexion\\' => 7,
         ),
         'A' =>
         array (
@@ -31,45 +31,45 @@ class ComposerStaticInit2115d2f1599ff3ccf902c180ce408680
     );
 
     public static $prefixDirsPsr4 = array (
-        'Phpify\\View\\' =>
+        'Nexion\\View\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpify/view/src',
         ),
-        'Phpify\\Routing\\' =>
+        'Nexion\\Routing\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpify/routing/src',
         ),
-        'Phpify\\Middleware\\' =>
+        'Nexion\\Middleware\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpify/middleware/src',
         ),
-        'Phpify\\Http\\' =>
+        'Nexion\\Http\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpify/http/src',
         ),
-        'Phpify\\Foundation\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/phpify/framework/src',
-        ),
-        'Phpify\\Exception\\' =>
+        'Nexion\\Exception\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpify/exception/src',
         ),
-        'Phpify\\Database\\' =>
+        'Nexion\\Database\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpify/database/src',
         ),
-        'Phpify\\Controller\\' =>
+        'Nexion\\Controller\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpify/controller/src',
         ),
-        'Phpify\\Console\\' =>
+        'Nexion\\Console\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpify/console/src',
         ),
-        'Phpify\\Config\\' =>
+        'Nexion\\Config\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpify/config/src',
+        ),
+        'Nexion\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpify/framework/src',
         ),
         'App\\' =>
         array (
